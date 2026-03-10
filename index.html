@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Disease Prediction System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Disease Prediction System</h1>
+<p>Select your symptoms:</p>
+
+<form id="symptomForm">
+
+<label><input type="checkbox" value="fever"> Fever</label><br>
+
+<label><input type="checkbox" value="cough"> Cough</label><br>
+
+<label><input type="checkbox" value="headache"> Headache</label><br>
+
+<label><input type="checkbox" value="sorethroat"> Sore Throat</label><br>
+
+<label><input type="checkbox" value="fatigue"> Fatigue</label><br>
+
+<label><input type="checkbox" value="vomiting"> Vomiting</label><br>
+
+<br>
+
+<button type="button" onclick="predictDisease()">Predict Disease</button>
+
+</form>
+
+<h2 id="result"></h2>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
